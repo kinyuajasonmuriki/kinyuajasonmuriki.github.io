@@ -1,0 +1,190 @@
+#hero-brand i{
+  font-size: 13pt;
+  text-align: center;
+  margin-left: 30px;
+  margin-top:2%;
+}
+
+img#about-img, img#binary-img{
+  max-width: 40%;
+}
+#main-flexslider.flexslider{
+margin-top: 245px;
+}
+
+
+i.icon-bgdark {
+    color: #f7f7f7;
+    background: #18b42a;
+    border-radius: 2em;
+    border: #d84c16 solid 1px;
+}
+
+i.icon-bgdark:active{
+  color: #f7f7f7;
+  background: #8905f5;
+}
+
+
+.about {
+	background:#eee;
+	padding:50px;
+}
+
+.about h2 {
+	margin-bottom:30px;
+}
+
+.about img {
+	margin-bottom:30px;
+	border-radius:6px;
+  max-width: 20%;
+}
+
+section.carrer-skills{
+	padding:50px;
+}
+
+#career-skills i {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #fff;
+    padding: 50px;
+    background: #3411C0;
+    border-radius: 50%;
+}
+
+#career-skills h2 {
+	margin-top:20px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	font-size:18px;
+	color: #1BAC91;
+}
+
+#career-skills .hi-icon-effect i.fa:hover {
+    background: #4ef6d3;
+    color: #2386DA;
+    -webkit-transition: color 300ms, background-color 300ms;
+    -moz-transition: color 300ms, background-color 300ms;
+    -o-transition: color 300ms, background-color 300ms;
+    transition: color 300ms, background-color 300ms;
+}
+
+img {
+    width: auto\9;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+a.pp_expand, a.pp_contract {
+    cursor: pointer;
+    display: none;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    text-indent: -10000px;
+    top: 0px;
+    width: 20px;
+
+    z-index: 20000;
+}
+section #sect-title {
+    text-align: center;
+    color: #1010c2;
+    font-size: 20pt;
+    font-family: monospace, lucida console;
+}
+
+#career-skills .skill-bars{
+  margin-top: 80px;
+}
+
+.progress-wrap{
+  position: relative;
+}
+
+.progress .color1,
+.progress .color1 .bar-width{
+  background: #2d7da4;
+}
+
+.progress .color2,
+.progress .color2 .bar-width{
+  background: #6aa42f;
+}
+
+.progress .color3,
+.progress .color3 .bar-width{
+  background: #ffcc33;
+}
+
+.progress .color4,
+.progress .color4 .bar-width{
+  background: #db3615;
+}
+
+.progress,
+.progress-bar {
+  height: 15px;
+  line-height: 15px;
+  background: #e6e6e6;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  overflow: visible;
+  text-align: right;
+}
+
+.progress{
+  position: relative;
+}
+
+.progress .bar-width{
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  top: -30px;
+  border-radius: 2px;
+  margin-left: -30px;
+}
+
+.progress span{
+  position: relative;
+}
+
+.progress span:before{
+  content: " ";
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-width: 8px 5px;
+  border-style: solid;
+  bottom: -15px;
+  right: 8px;
+}
+
+.progress .color1 span:before{
+  border-color: #2d7da4 transparent transparent transparent;
+}
+
+.progress .color2 span:before{
+  border-color: #6aa42f transparent transparent transparent;
+}
+
+.progress .color3 span:before{
+  border-color: #ffcc33 transparent transparent transparent;
+}
+
+.progress .color4 span:before{
+  border-color: #db3615 transparent transparent transparent;
+}
